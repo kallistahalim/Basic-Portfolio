@@ -2,22 +2,33 @@
     background-color: #4aaaa5;
 }
 
+ul {
+    float: right;
+    line-height: 32px;
+    display: inline-block;
+  }
+ 
+ ul li {
+    float: left;
+    margin-right: 15px;
+    font-family: ‘Montserrat’, sans-serif;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    margin-top: 6px;
+  }
+
 h1{
     color: #4aaaa5;
     background-color: #ffffff;
     border-color: #cccccc;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 30%;
-    float: left;
-}
-
-ul #heading{
-    display: block;
-    float : left;
-}
-
-p #heading{
-    float: right;
+    display: inline-block;
+    width: 50%;
+    padding : 6px;
+    font-size: 30px;
+    margin-top: 10px;
 }
 
 body{
@@ -25,19 +36,84 @@ body{
     margin :auto;
 }
 
+img{
+    float : left;
+    width : 250px;
+    margin-top : 20px;
+    margin-left : 2px;
+}
+
 h2{
     color:#777777;
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom : 15px;
+    font-size: 24px;
 }
 
 #footer{
     background-color:#666666;
+    position:absolute;
+    bottom:0;
+    width:960px;
+    height:10px; 
+    text-align: left;
+    padding-left: 6px;
+    padding-top: 6px;
+    color: grey;
+    color : white;
+    font-size: 10px;
+    font-family: ‘Montserrat’, sans-serif;
+    margin-top: 20px;
+    border-radius:1px;
+}
+
+p #footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
     
 #main-content{
     background-color: #ffffff;
     border-color: #dddddd;
 }
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#text{
+    width : 70%;
+    float : right;
+    line-height: 50px;
+    color: white;
+    text-align: justify;
+    font-family: ‘Montserrat’, sans-serif;
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+label{
+    font-family: ‘Montserrat’, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+
+#contact-me{
+    margin-top: 40px;
+}
+
 
 
 
